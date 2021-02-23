@@ -1,0 +1,16 @@
+Package: GroupBoosting
+Title: Performs Variable Selection with Two Stage Boosting Algorithm that Incorporates Group Structure
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Emily",
+           family = "Morris",
+           role = c("aut", "cre"),
+           email = "emorrisl@umich.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Fits a two stage boosting algorithm to perform variable selection, in the setting where variables can be grouped. The first stage screens out groups and the second stage performs estimation on the reduced set of individual variables. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp, RcppArmadillo, RcppParallel
+Imports: Rcpp, glmnet, stats 
+RoxygenNote: 7.0.2
